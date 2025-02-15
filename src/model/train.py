@@ -7,6 +7,8 @@ from src.config.logger import logger
 from src.model.feature_engineering import preprocess_text
 
 
+logger.info("Starting model training...")
+
 #load the dataset 
 df = load_data() 
 X,y = df['text'], df['label']
