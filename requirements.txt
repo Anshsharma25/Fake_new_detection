@@ -8,4 +8,4 @@ pydantic     # Define API request/response models.
 loguru       # Advanced logging for debugging.
 pytest       # Unit testing for model and API.
 requests     # Test API endpoints.
-gunicorn    # Production server for FastAPI.
+gunicorn     # Production server for FastAPI.
