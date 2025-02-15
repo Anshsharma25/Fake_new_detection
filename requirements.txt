@@ -1,0 +1,11 @@
+pandas       # Load and process the dataset.
+numpy        # For numerical computations.
+scikit-learn # For model building and evaluation.
+nltk         # Natural Language Processing for stopwords and text preprocessing.
+fastapi      # To create the API for serving predictions.
+uvicorn      # ASGI server for FastAPI/Run the FastAPI app.
+pydantic     # Define API request/response models.
+loguru       # Advanced logging for debugging.
+pytest       # Unit testing for model and API.
+requests     # Test API endpoints.
+gunicorn    # Production server for FastAPI.
